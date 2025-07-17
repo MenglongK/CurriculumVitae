@@ -21,52 +21,266 @@
       }
     </style>
   </head>
-  <body>
-    <main>
-      <!-- <section class="container lg:w-[1200px] bg-gray-800 m-auto">
-        <div class="text-end max-sm:pr-9 pr-20 max-sm:py-9 py-16 text-white">
-          <h1 class="text-4xl font-bold max-sm:text-2xl">Keo Menglong</h1>
-          <p class="text-xl max-sm:text-sm">Shipping Officer</p>
+  <body class="bg-gray-100">
+    <main class="text-gray-800 py-12">
+      <div class="lg:w-[950px] m-auto md:grid grid-cols-3 border-0">
+        <div class="relative flex items-center transition-shadow duration-300">
+          <div
+            class="absolute left-16 top-20 w-44 h-44 rounded-full overflow-hidden border-3 border-white shadow-md hover:scale-105 hover:shadow-xl transition-transform duration-300 cursor-pointer"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/image/Profile.jpg"
+              alt="Profile"
+            />
+          </div>
         </div>
-      </section> -->
-      <section class="lg:w-[1200px] m-auto md:grid grid-cols-3 border-0">
+      </div>
+      <section class="lg:w-[950px] m-auto md:grid grid-cols-3 border-0">
         <div class="text-5xl bg-gray-800 p-20 max-sm:hidden"></div>
+        <!-- header -->
         <div
           class="bg-gray-800 max-sm:pr-9 px-20 max-sm:py-9 py-16 col-span-2 text-white"
         >
           <h1 class="text-4xl font-bold max-sm:text-2xl">Keo Menglong</h1>
           <p class="text-xl max-sm:text-sm">Shipping Officer</p>
         </div>
-        <div class="text-xl bg-stone-300 max-sm:text-center md:px-6">
+        <!-- left side -->
+        <div class="text-xl bg-stone-300 max-sm:text-center md:px-6 pb-6">
           <h3
-            class="uppercase md:text-2xl font-semibold tracking-[2px] md:mt-25"
+            class="uppercase md:text-xl font-semibold tracking-[2px] md:mt-25"
           >
             contact
           </h3>
-          <hr class="mx-[2px]" />
-          <a href="tel:(+855) 87-896-167" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-solid fa-phone pr-3"></i>(+855) 87-896-167
-            </p></a
+          <hr />
+          <div class="flex pt-3">
+            <div class="grid grid-cols-1 gap-3">
+              <i class="fa-solid fa-phone text-[16px] pr-3"></i>
+              <i class="fa-solid fa-envelope text-[16px] pr-3"></i>
+              <i class="fa-solid fa-location-dot text-[16px] pr-3"></i>
+              <i class="fa-brands fa-github text-[16px] pr-3"></i>
+            </div>
+            <div class="grid grid-cols-1 gap-3">
+              <a href="tel:+85587896167" target="_blank"
+                ><p class="text-[14px] md:hover:underline">
+                  (+855) 87-896-167
+                </p></a
+              >
+              <a href="mailto:menglongkeo07@gmail.com" target="_blank"
+                ><p class="text-[14px] md:hover:underline">
+                  menglongkeo07@gmail.com
+                </p></a
+              >
+              <a
+                href="https://maps.app.goo.gl/S2oRfwv9z2ZAeAs67"
+                target="_blank"
+                ><p class="text-[14px] md:hover:underline">
+                  Phleung Chheh Roteh, Phnom Penh
+                </p></a
+              >
+              <a href="https://github.com/MenglongK" target="_blank"
+                ><p class="text-[14px] md:hover:underline">Github</p></a
+              >
+            </div>
+          </div>
+          <h3
+            class="uppercase md:text-xl font-semibold tracking-[2px] md:mt-10"
           >
-          <a href="mailto:menglongkeo07@gmail.com" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-solid fa-envelope pr-3"></i>menglongkeo07@gmail.com
-            </p></a
+            skills
+          </h3>
+          <hr />
+          <ul
+            class="list-disc md:mx-5 text-base pt-2 grid grid-cols-1 gap-2 text-[14px]"
           >
-          <a href="https://maps.app.goo.gl/S2oRfwv9z2ZAeAs67" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-solid fa-location-dot pr-3"></i>Phleung Chheh Roteh,
-              Phnom Penh
-            </p></a
+            <li>Project Management</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Effective Communication</li>
+            <li>Critical Thinking</li>
+          </ul>
+          <h3
+            class="uppercase md:text-xl font-semibold tracking-[2px] md:mt-10"
           >
-          <a href="https://github.com/MenglongK" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-brands fa-github pr-3"></i>Github
-            </p></a
+            languages
+          </h3>
+          <hr />
+          <ul
+            class="list-disc md:mx-5 text-base pt-2 grid grid-cols-1 gap-2 text-[14px]"
           >
+            <li>English</li>
+            <li>Khmer</li>
+          </ul>
+          <h3
+            class="uppercase md:text-xl font-semibold tracking-[2px] md:mt-10"
+          >
+            reference
+          </h3>
+          <hr />
+          <ul class="text-base pt-2 grid grid-cols-1 gap-2 text-[14px]">
+            <li class="font-bold">Mr. Kim Kesara</li>
+            <li>Injae Garment Co., Ltd / Shipping Manager</li>
+            <li>
+              <span class="font-bold">Phone:</span>
+              <a href="tel:+85512331293" class="md:hover:underline"
+                >(+855) 12-331-293</a
+              >
+            </li>
+            <li>
+              <span class="font-bold">Email:</span>
+              <a href="mailto:kesarakim@injae.co.kr" class="md:hover:underline"
+                >kesarakim@injae.co.kr</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="text-5xl bg-green-800 p-20 col-span-2">4</div>
+        <!-- Right side -->
+        <div class="text-xl bg-white col-span-2">
+          <div
+            class="max-sm:text-center md:px-6 pb-6 md:mt-10 grid grid-cols-13 gap-4"
+          >
+            <!-- Profile -->
+            <div class="grid grid-cols-1 pt-[5px]">
+              <i class="fa-solid fa-circle-user absolute"></i>
+              <div class="w-26 h-26 rotate-90 relative right-[93px] top-[19px] max-md:hidden">
+                <hr />
+              </div>
+            </div>
+            <div class="col-span-12">
+              <h3 class="uppercase md:text-xl font-semibold tracking-[2px]">
+                Profile
+              </h3>
+              <hr />
+              <ul class="pt-2 text-justify grid gap-1 text-[14px]">
+                <li class="grid grid-cols-7 gap-2">
+                  <span class="font-bold">Address:</span>
+                  <a
+                    href="https://maps.app.goo.gl/S2oRfwv9z2ZAeAs67"
+                    target="_blank"
+                    class="col-span-6 md:hover:underline"
+                    ><span>
+                      Prey Kei Village, Sangkat Phleung Chheh Roteh, Khan Pou
+                      Senchey, Phnom Penh
+                    </span></a
+                  >
+                </li>
+                <li class="grid grid-cols-7 gap-2">
+                  <span class="font-bold">Email:</span>
+                  <a
+                    href="mailto:menglongkeo07@gmail.com"
+                    target="_blank"
+                    class="col-span-6 md:hover:underline"
+                    ><span>menglongkeo07@gmail.com</span></a
+                  >
+                </li>
+                <li class="grid grid-cols-7 gap-2">
+                  <span class="font-bold">Tel:</span>
+                  <a
+                    href="tel:+85587896167"
+                    target="_blank"
+                    class="col-span-6 md:hover:underline"
+                    ><span>(+855) 87-896-167</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Work experience -->
+             <div class="grid grid-cols-1 pt-[5px]">
+              <i class="fa-solid fa-briefcase"></i>
+              <div class="w-80 h-0 rotate-90 relative right-[149px] bottom-[1px] max-md:hidden">
+                <hr />
+              </div>
+            </div>
+            <div class="col-span-12">
+              <h3 class="uppercase md:text-xl font-semibold tracking-[2px]">
+                work experience
+              </h3>
+              <hr />
+              <ul class="pt-2 text-justify grid gap-1 text-[14px]">
+                <div class="grid grid-cols-2 font-bold">
+                  <li>Trax apparel (cambodia) co. ltd</li>
+                  <span class="text-end">2018-2019</span>
+                </div>
+                <li class="pb-2">IE (Industry Engineer)</li>
+                <li class="list-disc md:mx-5">
+                  Arrange layout machine for sewing line
+                </li>
+                <li class="list-disc md:mx-5">
+                  Improving output quantity & quality
+                </li>
+                <li class="list-disc md:mx-5">
+                  Follow rule high output less sewer
+                </li>
+              </ul>
+              <ul class="pt-4 text-justify grid gap-1 text-[14px]">
+                <div class="grid grid-cols-2 font-bold">
+                  <li>Injae Garment Co. Ltd</li>
+                  <span class="text-end uppercase">2019-present</span>
+                </div>
+                <li class="pb-2">Shipping Officer</li>
+                <li class="list-disc md:mx-5">
+                  Arrange packing plan & handle revision with actual quantity
+                </li>
+                <li class="list-disc md:mx-5">
+                  Arrange packing list for booking to VSSL
+                </li>
+                <li class="list-disc md:mx-5">
+                  Organize tasks base on manager provide
+                </li>
+                <li class="list-disc md:mx-5">
+                  Inspect & loading carton to the containers
+                </li>
+                <li class="list-disc md:mx-5">
+                  Prepare record for export document
+                </li>
+              </ul>
+            </div>
+            <!-- Education -->
+             <div class="grid grid-cols-1 pt-[5px]">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div class="w-60 h-21 rotate-90 relative right-[149px] lg:bottom-[2px] md:bottom-[21px] max-md:hidden">
+                <hr />
+              </div>
+            </div>
+            <div class="col-span-12">
+              <h3 class="uppercase md:text-xl font-semibold tracking-[2px]">
+                Education
+              </h3>
+              <hr />
+              <ul class="pt-2 text-justify grid gap-1 text-[14px]">
+                <div class="grid grid-cols-2 font-bold">
+                  <li>High School (Bac II)</li>
+                  <span class="text-end">2015-2018</span>
+                </div>
+                <li class="pb-2">Preah bat Suramarith high school</li>
+              </ul>
+              <ul class="pt-2 text-justify grid gap-1 text-[14px]">
+                <div class="grid grid-cols-2 font-bold">
+                  <li>Bachelor of English for Communication</li>
+                  <span class="text-end">2021-2024</span>
+                </div>
+                <li class="pb-2">Western University</li>
+              </ul>
+              <ul class="pt-2 text-justify grid gap-1 text-[14px]">
+                <div class="grid grid-cols-2 font-bold">
+                  <li>Short Course of Web Design</li>
+                  <span class="text-end uppercase">2024-2024</span>
+                </div>
+                <li class="pb-2">
+                  Institute of Science and Technology Advanced Development
+                </li>
+              </ul>
+              <ul class="pt-2 text-justify grid gap-1 text-[14px]">
+                <div class="grid grid-cols-2 font-bold">
+                  <li>Associate of Information Technology</li>
+                  <span class="text-end uppercase">2025-present</span>
+                </div>
+                <li class="pb-2">
+                  Institute of Science and Technology Advanced Development
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
