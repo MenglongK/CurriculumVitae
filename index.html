@@ -21,8 +21,32 @@
       }
     </style>
   </head>
-  <body class="bg-gray-100 p-12">
-    <main class="text-gray-800">
+  <body class="bg-gray-100">
+    <main class="text-gray-800 py-12">
+      <!-- <div class="relative flex items-center">
+        <div
+          class="absolute w-44 h-44 rounded-full overflow-hidden left-[260px] bottom-[-260px]"
+        >
+          <img
+            src="./src/image/Profile.jpg"
+            class="w-full object-cover"
+            alt="Profile"
+          />
+        </div>
+      </div> -->
+      <div class="lg:w-[950px] m-auto md:grid grid-cols-3 border-0">
+        <div class="relative flex items-center transition-shadow duration-300">
+          <div
+            class="absolute left-16 top-20 w-44 h-44 rounded-full overflow-hidden border-3 border-white shadow-md hover:scale-105 hover:shadow-xl transition-transform duration-300 cursor-pointer"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/image/Profile.jpg"
+              alt="Profile"
+            />
+          </div>
+        </div>
+      </div>
       <section class="lg:w-[950px] m-auto md:grid grid-cols-3 border-0">
         <div class="text-5xl bg-gray-800 p-20 max-sm:hidden"></div>
         <!-- header -->
@@ -31,9 +55,6 @@
         >
           <h1 class="text-4xl font-bold max-sm:text-2xl">Keo Menglong</h1>
           <p class="text-xl max-sm:text-sm">Shipping Officer</p>
-        </div>
-        <div class="w-44 h-44 rounded-full overflow-hidden absolute left-[260px] top-[140px]">
-          <img src="./src/image/Profile.jpg" class="w-full object-fit-contain" alt="Profile" />
         </div>
         <!-- left side -->
         <div class="text-xl bg-stone-300 max-sm:text-center md:px-6 pb-6">
