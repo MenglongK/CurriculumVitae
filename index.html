@@ -22,7 +22,7 @@
     </style>
   </head>
   <body>
-    <main>
+    <main class="text-gray-800">
       <!-- <section class="container lg:w-[1200px] bg-gray-800 m-auto">
         <div class="text-end max-sm:pr-9 pr-20 max-sm:py-9 py-16 text-white">
           <h1 class="text-4xl font-bold max-sm:text-2xl">Keo Menglong</h1>
@@ -31,42 +31,89 @@
       </section> -->
       <section class="lg:w-[1200px] m-auto md:grid grid-cols-3 border-0">
         <div class="text-5xl bg-gray-800 p-20 max-sm:hidden"></div>
+        <!-- header -->
         <div
           class="bg-gray-800 max-sm:pr-9 px-20 max-sm:py-9 py-16 col-span-2 text-white"
         >
           <h1 class="text-4xl font-bold max-sm:text-2xl">Keo Menglong</h1>
           <p class="text-xl max-sm:text-sm">Shipping Officer</p>
         </div>
-        <div class="text-xl bg-stone-300 max-sm:text-center md:px-6">
+        <!-- left side -->
+        <div class="text-xl bg-stone-300 max-sm:text-center md:px-6 pb-6">
           <h3
             class="uppercase md:text-2xl font-semibold tracking-[2px] md:mt-25"
           >
             contact
           </h3>
-          <hr class="mx-[2px]" />
-          <a href="tel:(+855) 87-896-167" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-solid fa-phone pr-3"></i>(+855) 87-896-167
-            </p></a
+          <hr />
+          <div class="flex pt-2">
+            <div class="grid grid-cols-1 gap-3">
+              <i class="fa-solid fa-phone text-base pr-3"></i>
+              <i class="fa-solid fa-envelope text-base pr-3"></i>
+              <i class="fa-solid fa-location-dot text-base pr-3"></i>
+              <i class="fa-brands fa-github text-base pr-3"></i>
+            </div>
+            <div class="grid grid-cols-1 gap-3">
+              <a href="tel:+85587896167" target="_blank"
+                ><p class="text-base">(+855) 87-896-167</p></a
+              >
+              <a href="mailto:menglongkeo07@gmail.com" target="_blank"
+                ><p class="text-base">menglongkeo07@gmail.com</p></a
+              >
+              <a
+                href="https://maps.app.goo.gl/S2oRfwv9z2ZAeAs67"
+                target="_blank"
+                ><p class="text-base">Phleung Chheh Roteh, Phnom Penh</p></a
+              >
+              <a href="https://github.com/MenglongK" target="_blank"
+                ><p class="text-base">Github</p></a
+              >
+            </div>
+          </div>
+          <h3
+            class="uppercase md:text-2xl font-semibold tracking-[2px] md:mt-10"
           >
-          <a href="mailto:menglongkeo07@gmail.com" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-solid fa-envelope pr-3"></i>menglongkeo07@gmail.com
-            </p></a
+            skills
+          </h3>
+          <hr />
+          <ul class="list-disc md:mx-5 text-base pt-2 grid grid-cols-1 gap-2">
+            <li>Project Management</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Effective Communication</li>
+            <li>Critical Thinking</li>
+          </ul>
+          <h3
+            class="uppercase md:text-2xl font-semibold tracking-[2px] md:mt-10"
           >
-          <a href="https://maps.app.goo.gl/S2oRfwv9z2ZAeAs67" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-solid fa-location-dot pr-3"></i>Phleung Chheh Roteh,
-              Phnom Penh
-            </p></a
+            languages
+          </h3>
+          <hr />
+          <ul class="list-disc md:mx-5 text-base pt-2 grid grid-cols-1 gap-2">
+            <li>English</li>
+            <li>Khmer</li>
+          </ul>
+          <h3
+            class="uppercase md:text-2xl font-semibold tracking-[2px] md:mt-10"
           >
-          <a href="https://github.com/MenglongK" target="_blank"
-            ><p class="text-base pt-2">
-              <i class="fa-brands fa-github pr-3"></i>Github
-            </p></a
-          >
+            reference
+          </h3>
+          <hr />
+          <ul class="text-base pt-2 grid grid-cols-1 gap-2">
+            <li class="font-bold">Mr. Kim Kesara</li>
+            <li>Injae Garment Co., Ltd / Shipping Manager</li>
+            <li>
+              <span class="font-bold">Phone:</span>
+              <a href="tel:+85512331293">(+855) 12-331-293</a>
+            </li>
+            <li>
+              <span class="font-bold">Email:</span>
+              <a href="mailto:kesarakim@injae.co.kr">kesarakim@injae.co.kr</a>
+            </li>
+          </ul>
         </div>
-        <div class="text-5xl bg-green-800 p-20 col-span-2">4</div>
+        <!-- Right side -->
+        <div class="text-5xl bg-green-800 p-20 col-span-2"></div>
       </section>
     </main>
   </body>
